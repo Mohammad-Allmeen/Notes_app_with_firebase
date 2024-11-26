@@ -97,7 +97,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         //check and ensuring if the text field is not not
 
                         validator: (value){
-                          if(value!.isNotEmpty&& value.contains('@')){
+                          if(value!.isNotEmpty&&value.contains('@')){
                             return null;
                           }
                           return "Enter Email";
